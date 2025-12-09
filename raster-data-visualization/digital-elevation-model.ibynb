@@ -1,0 +1,136 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/appigula/gis_project_portfolio_geo441b/blob/main/raster-data-visualization/digital-elevation-model.ibynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Digital Elevation and Hydrology Data**"
+      ],
+      "metadata": {
+        "id": "C0ymCPR5aSHN"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Created by Alana Pigula\n",
+        "\n",
+        "10/17/25"
+      ],
+      "metadata": {
+        "id": "Pt_OREXFPvkr"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Get ready to start**\n",
+        "\n",
+        "- Click **`File/Save a copy in Drive`** to save a copy of this notebook to your own Google Drive"
+      ],
+      "metadata": {
+        "id": "CMQN_pgaHVLO"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Part 1: Lower St. Croix Watershed Map**\n"
+      ],
+      "metadata": {
+        "id": "WVs4J1jQbESU"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Below is a map of the lower St. Croix watershed prepared following the [Week 8 Assignment Guide](https://docs.google.com/document/d/1WAdV_6MKuuiseG7wszgnMlYfbPygOfkM5IBkyxrepHU/edit?usp=sharing).\n",
+        "\n",
+        "```markdown\n",
+        "https://drive.google.com/file/d/16oGC874WEZh7QQV9fAqd6h0UNujeFnlY/view?usp=sharing\n",
+        "```\n",
+        "\n",
+        "Create a viewable link of the map.\n",
+        "- Delete `/view?usp=sharing` at the end of the link\n",
+        "- Replace `/file/d/` with `/uc?export=view&id=`\n",
+        "\n",
+        "\n",
+        "```markdown\n",
+        "https://drive.google.com/uc?export=view&id=16oGC874WEZh7QQV9fAqd6h0UNujeFnlY\n",
+        "```\n",
+        "\n",
+        "Reminder of the rendering syntax:\n",
+        "```markdown\n",
+        "![st. croix map](revised link)\n",
+        "```\n",
+        "\n",
+        "<mark>Insert the map below:</mark>\n",
+        "![st croix map](https://drive.google.com/uc?export=view&id=16oGC874WEZh7QQV9fAqd6h0UNujeFnlY)"
+      ],
+      "metadata": {
+        "id": "wkJqun7umRRk"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Part 2: Final Project Raster Dataset**\n",
+        "\n",
+        "Next, spend some time locating a raster dataset which is relevant to your final project topic. You will not be required to use this dataset in your report, but it should be related to your topic. The following two data portals will be great options to locate a dataset:\n",
+        "\n",
+        "+ [ArcGIS Living Atlas of the World](https://livingatlas.arcgis.com)\n",
+        "  + ***Tip**: Click ‘Browse’ and look for the ‘Layers’ content type within the “People” category.*\n",
+        "\n",
+        "+ [NASA WorldView](https://worldview.earthdata.nasa.gov)\n",
+        "  + ***Tip**: Click ‘Add Layers’ and look within the “Human Dimensions” and “Human Impact” categories.*\n",
+        "\n",
+        "1. **Provide (a) the name of and (b) the link to the raster dataset you identified for your group project**. Also note, if available, (c) the spatial resolution, temporal resolution, and spatial extent of the dataset. Be sure that you are submitting a raster, not a vector, dataset!\n",
+        "<mark> [Areas of Unprotected Biodiversity Importance of Imperiled Species in the United States, https://www.arcgis.com/home/item.html?id=6a41c957ed584ce4be8ccb71a2131116, spatial resolution = 330 m, temporal resolution = yearly, spatial extent = lower 48 states of the US (West Bounding Coordinate: -127.891744201458\n",
+        "East Bounding Coordinate: -65.3443672603555\n",
+        "North Bounding Coordinate: 51.6059569642458\n",
+        "South Bounding Coordinate: 22.8719418426287)] </mark>\n",
+        "\n",
+        "2. **Finally, in a brief paragraph explain why this data layer is an appropriate choice for your project topic**, including a discussion of the appropriateness of the spatial and temporal resolutions (i.e. the granularity/scale of the dataset and its date of collection).\n",
+        "<mark> This data layer is an appropriate choice because the topic is very specific to biodiersity and it will help explain more and give an explanation of how plants and animals are in danger due to lack of protected areas. The grid size is bigger (330 m), so it is not super specific but it still gives a good idea of the major areas that need help. There is a layer set for this topic for each year from 2020, this helps show the  yearly changes for this topic and can be helpful in determining some sort of solution if there is a pattern identified. </mark>"
+      ],
+      "metadata": {
+        "id": "d8B4v6BIJYRw"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Save and share this notebook**\n",
+        "\n",
+        "Make sure that your images are all rendering and then share the notebook so that it is viewable by anyone with the link. <mark>**Submit the shareable link to Canvas for the Week 8 Assignment.**</mark>"
+      ],
+      "metadata": {
+        "id": "kkgukjDcXsqC"
+      }
+    }
+  ]
+}
