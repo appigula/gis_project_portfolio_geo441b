@@ -17,14 +17,14 @@ Alana Pigula
 
 ## Digitizing
 
-- [Data entry and digitization](https://github.com/appigula/gis_project_portfolio_geo441b/blob/c48008de45bae8567167a4e3e46367e8eb38353a/digitizing/data-entry-and-digitizing)
+- [Data entry and digitization](https://github.com/appigula/gis_project_portfolio_geo441b/blob/85ed80b8a9fa4b997ae4ffcc302d968fd4544669/digitization/data-entry-and-digitization.ipynb)
 
 ## Raster Data Visualization
 
 - [Digital elevation model](https://github.com/appigula/gis_project_portfolio_geo441b/blob/c48008de45bae8567167a4e3e46367e8eb38353a/raster-data-visualization/digital-elevation-visual)
-- [Terrain analysis](https://github.com/appigula/gis_project_portfolio_geo441b/blob/c48008de45bae8567167a4e3e46367e8eb38353a/raster-data-visualization/raster-terrain-analysis)
+- [Terrain analysis](https://github.com/appigula/gis_project_portfolio_geo441b/blob/85ed80b8a9fa4b997ae4ffcc302d968fd4544669/raster-data-visualization/raster-terrain-analysis.ipynb)
 
 ## Spatial Analysis
 
-- [Working with Census data](https://github.com/appigula/gis_project_portfolio_geo441b/blob/c48008de45bae8567167a4e3e46367e8eb38353a/spatial-analysis/census-data)
-- [Spatial analysis using buffers](https://github.com/appigula/gis_project_portfolio_geo441b/blob/c48008de45bae8567167a4e3e46367e8eb38353a/spatial-analysis/vector-data-spatial)
+- [Working with Census data](https://github.com/appigula/gis_project_portfolio_geo441b/blob/85ed80b8a9fa4b997ae4ffcc302d968fd4544669/vector-data-visualization/census-data-mapping.ipynb)
+- [Spatial analysis using buffers](https://github.com/appigula/gis_project_portfolio_geo441b/blob/85ed80b8a9fa4b997ae4ffcc302d968fd4544669/vector-data-visualization/spatial-analysis.ipynb)
