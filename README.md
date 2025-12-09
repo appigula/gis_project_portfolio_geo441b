@@ -21,7 +21,7 @@ Alana Pigula
 
 ## Raster Data Visualization
 
-- [Digital elevation model](https://github.com/appigula/gis_project_portfolio_geo441b/blob/c48008de45bae8567167a4e3e46367e8eb38353a/raster-data-visualization/digital-elevation-visual)
+- [Digital elevation model](https://github.com/appigula/gis_project_portfolio_geo441b/blob/94d1fa3943badb317c4e43183f1082c405d548e8/raster-data-visualization/digital-elevation-data.ipynb)
 - [Terrain analysis](https://github.com/appigula/gis_project_portfolio_geo441b/blob/85ed80b8a9fa4b997ae4ffcc302d968fd4544669/raster-data-visualization/raster-terrain-analysis.ipynb)
 
 ## Spatial Analysis
